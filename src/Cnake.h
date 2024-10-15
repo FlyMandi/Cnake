@@ -1,4 +1,4 @@
-// From official documentation, example header:
+// From official documentation, example header.
 
 #ifndef CNAKE_H
 #define CNAKE_H
