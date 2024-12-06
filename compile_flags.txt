@@ -1,9 +1,17 @@
 -I
 .\vendor\GLFW\include\
 -I
-..\..\VulkanSDK\1.3.296.0\Include\
+..\..\VulkanSDK\1.3.296.0\include\
+-I
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\
+-I
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\
+-I
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\
+-I
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\
 -target
 x86_64-pc-windows-gnu
 -xc++
 -std=c++20
-
+-ferror-limit=0
